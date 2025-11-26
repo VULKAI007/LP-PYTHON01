@@ -56,6 +56,7 @@ while True:
                    # for funcionario in lista_funcionario:
                     arquivo_funcionario.write(f"{funcionario.nome}, {funcionario.data_de_admissao}, {funcionario.matricula}, {funcionario.endereco}\n")
                 print("DADOS SALVOS COM SUCESSO!")
+                print('\n')
 
             else:
                 print("MÁXIMO DE FUNCIONÁRIOS CADASTRADOS....")
@@ -75,10 +76,12 @@ while True:
                     arquivo_cliente.write(f"{cliente.nome}, {cliente.data_de_nascimento}, {cliente.endereco}\n")
 
                     print("DADOS SALVOS COM SUCESSO!")
+                    print('\n')
                 
             else:
                 print("MÁXIMO DE CLIENTES CADASTRADOS.....")
                 time.sleep(0.5)
+                print("\n")
 
     if len(lista_funcionario) == 3 and len(lista_cliente) == 3:
         print("FUNCIONÁRIOS E CLIENTES CADASTRADOS COM SUCESSO!!")
