@@ -42,8 +42,7 @@ def lista_esta_vazia(lista_alunos):
         print("\nNÃO HÁ ALUNOS CADASTRADOS")
         return True
     return False
-
-
+# ESSE CÓDIGO É DE ENZO
 # Função para adicionar um novo aluno
 def adicionar_aluno(lista_alunos):
     print("\n====== ADICIONAR NOVO ALUNO ======")
@@ -72,6 +71,7 @@ def adicionar_aluno(lista_alunos):
 
 
 # Função para encontrar um aluno por nome
+# ESSE CÓDIGO É DE ENZO
 def encontrar_aluno_por_nome(lista_alunos, nome_buscar):
     nome_buscar_lower = nome_buscar.lower()
     for aluno in lista_alunos:
@@ -152,6 +152,7 @@ def excluir_aluno(lista_alunos):
 
 
 # MENU PRINCIPAL
+# ESSE CÓDIGO É DE ENZO
 while True:
     print("""
 ---- Gerenciador de alunos ----
